@@ -8,6 +8,9 @@ body{
     background-image: linear-gradient(to right, #025E73 ,#011F26);
     font-style: normal;
     overflow-x:hidden;
+    justify-content: center;
+    height: 100vh; /* Isso centraliza verticalmente também */
+    margin: 30px;
 }
 .container{
     display: flex;
