@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #025E73 ,#011F26);
+    font-style: normal;
+    overflow-x:hidden;
+}
+.container{
+    display: flex;
+}
+img#imagem{
+    position: relative;
+    height: 80px;
+}
+img#robo{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    height: 100px;
+}
+.box{
+    flex-grow: 1;
+    overflow: auto;
+}
+.nome{
+    font-family:  "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F2A71B;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000000 ;
+}
+.dados{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F2A71B;
+    text-shadow: 1px 1px 1px #000000 ;
+}
+p{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#A5A692;
+    text-align: justify;
+    font-weight: bold;
+    font-style: normal;
+}
+.experiencia{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F2A71B;
+    text-shadow: 1px 1px 1px #070707 ;
+}
+.titulo_experiencia{
+    font-family: "Alfa Slab One", serif;
+    font-weight: normal;
+    color: #F2A71B;
+
+}
+.redes_sociais {
+    position: relative;
+    left: 38%;
+    width: 500px;
+    height: 29px;
+    text-decoration: none;
+    background-color: #F2A71B;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.redes_sociais li {
+    text-decoration: none;
+    color: #F2A71B;
+    font-family: "Alfa Slab One", serif; /* Define a fonte para os itens da lista */
+}
+
+.redes_sociaisli a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #F2A71B; /* Define a cor do texto dos links */
+}
+
+.redes_sociais li a:hover {
+    color: black; /* Define a cor do texto dos links ao passar o mouse sobre eles */
+}
+
